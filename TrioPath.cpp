@@ -89,6 +89,6 @@ void Trio::TrioPath::replace_extension(std::string newExtension)
         path += "." + newExtension;
     } else {
         path.erase(it, path.end());
-        path += "." + newExtension;
+        path += newExtension;
     }
 }
